@@ -6,6 +6,7 @@ def capacitor_pods
   pod 'Capacitor', :path => '../node_modules/@capacitor/ios'
   pod 'CapacitorCordova', :path => '../node_modules/@capacitor/ios'
   pod 'Google-Mobile-Ads-SDK', '11.3.0'
+  pod 'GoogleUserMessagingPlatform', '>= 2.7.0', '< 3.0.0'
 end
 
 target 'Plugin' do
